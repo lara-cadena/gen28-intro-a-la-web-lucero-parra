@@ -1,0 +1,180 @@
+body{
+    background-color:rgb(236, 236, 236);
+    margin:0;
+    border:0;
+}
+
+/* header */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100% ;
+    padding:10px ;
+    background-color: white;
+    border: 5px solid white;
+
+}
+.logo{
+        display: flex;
+/*         width: 30px;
+        height: 30px;
+        margin-left: 75px; */
+    }
+
+
+.items{
+    display: flex;
+
+}
+
+.items-right{
+    display: flex;
+}
+
+.logo-link{
+    width: 30px;
+    height: 30px;
+}
+
+.search-bar{
+
+
+}  
+
+    .item{
+        margin:5px;
+        padding:3px;
+        border:1px;
+        background-color: white;
+
+}
+
+
+
+
+/* nav */
+.sidebar{
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 15%;
+    height: 100vh;
+    padding: 10px;
+    background-color: white;
+    border: 5px solid white;
+    float: left;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: baseline;
+    margin: 3vh;
+    margin-left: 20vh;
+    }
+
+.item{
+        margin:5px;
+        padding:3px;
+        border:1px;
+        background-color: white;
+
+}
+
+
+/* article */
+    .feed{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        /* justify-content: center; */
+        width: 35%;
+        height: 100vh;
+        padding: 10px;
+        background-color: white;
+        border: 5px solid white;
+        float: left;
+        flex-wrap: wrap;
+        margin: 3vh;
+        
+        }
+    
+        .item-1{
+            margin:5px;
+            padding:3px;
+            border:1px;
+            background-color: white;
+        }
+
+        .item-2{
+            margin:5px;
+            padding:3px;
+            border:1px;
+            background-color: white;
+        }
+
+        .item-3 {
+            margin:5px;
+            padding:3px;
+            border:1px;
+            background-color: white;
+        }
+
+
+/* aside */
+    .right-sidebar{
+        display: flex;
+        position: relative;
+        flex-direction: row-reverse;
+        justify-content: center;
+        width: 21%;
+        height: 70vh;
+        padding: 10px;
+        background-color: white;
+        border: 5px solid white;
+        float: left;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: baseline;
+        margin: 3vh;
+        margin-right: 15vh;
+        }
+    
+        .item{
+            margin:5px;
+            padding:3px;
+            border:1px;
+            background-color: white;
+        }
+
+/* footer */
+ .footer{
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 21%;
+    height: 25vh;
+    padding: 10px;
+    border: 5px solid rgb(236, 236, 236);
+    float: right;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: baseline;
+    margin: 3vh;
+    margin-right: 15vh;
+            }
+        
+.item{
+    margin:5px;
+    padding:3px;
+    border:1px;
+                
+        }
+
+
+
+
+
+
+
+
